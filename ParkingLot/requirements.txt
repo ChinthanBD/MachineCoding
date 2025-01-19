@@ -8,6 +8,10 @@ Here are the requirements for designing a parking lot:
 2. **Parking Spot Management**:
     - Each parking spot should have a unique identifier.
     - Track the availability of each parking spot.
+        Finding the first available slot should be based on:
+            The slot should be of the same type as the vehicle.
+            The slot should be on the lowest possible floor in the parking lot.
+            The slot should have the lowest possible slot number on the floor.
     - Ability to reserve and release a parking spot.
 
 3. **Vehicle Management**:
@@ -33,3 +37,4 @@ Here are the requirements for designing a parking lot:
     - Provide electric vehicle charging stations.
     - Implement a loyalty program for frequent users.
     - Ensure that handicapped spots are only reserved for vehicles with the appropriate permits.
+
