@@ -23,3 +23,6 @@ class ParkingSpot:
 
     def release(self):
         self.is_occupied = False
+    
+    def is_handicapped(self) -> bool:
+        return self.spot_type == SpotType.HANDICAPPED
